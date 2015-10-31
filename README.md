@@ -66,11 +66,6 @@ print(str(5 * 40 + 2))
 This is an example of an optimal directory structure for working with Godot:
 
 ```
-├── bin
-│   ├── mygame-linux.x64
-│   ├── mygame-linux.x86
-│   ├── mygame-x64.exe
-│   └── mygame-x86.exe
 ├── doc
 │   ├── licenses
 │   │   ├── cc_by_4.0.md
