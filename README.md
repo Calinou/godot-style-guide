@@ -14,11 +14,12 @@ ___
 
 ## Naming
 
-- `snake_case` for variables and functions.
 - `UPPER_SNAKE_CASE` for constants.
+- `snake_case` for variables and functions.
 - `snake_case` for input map names.
-- `PascalCase` for node names.
 - `snake_case` for all file names.
+- `PascalCase` for node names.
+- `PascalCase` for classes.
 
 ## Comments
 
@@ -38,7 +39,20 @@ print("Hello world!")
 
 ## Indentation
 
-**Always** use tabs for indentation, GDScript does not like spaces anyway.
+- **Always** use tabs for indentation, GDScript does not like spaces anyway.
+
+## Line lengths
+
+- Try to keep lines under 80 characters. Disregarding this guideline at times is
+  acceptable, but over 100 characters is definitely too much.
+
+## Spacing
+
+- Put spaces around operators. Example:
+
+```gdscript
+print(str(5 * 40 + 2))
+```
 
 ## File types and extensions
 
@@ -117,6 +131,7 @@ This is an example of an optimal directory structure for working with Godot:
 │   └── main_menu.gd
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md (3)
+├── engine.cfg
 ├── LICENSE.md
 └── README.md
 ```
