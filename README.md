@@ -61,87 +61,11 @@ print(str(5 * 40 + 2))
 - In general, when developing using a version control system, you should use
   text-based files as much as possible. This is especially true with Git.
 
-## Recommended directory structure
+## Directory structure
 
-This is an example of an optimal directory structure for working with Godot:
-
-```
-├── doc
-│   ├── licenses
-│   │   ├── cc_by_4.0.md
-│   │   ├── cc_by-sa_4.0.md
-│   │   └── cc0.md
-│   ├── design_document.md
-│   └── README.md
-├── assets (1)
-│   ├── fonts
-│   │   └── sourcesanspro
-│   │       ├── sourcesanspro_bold.ttf
-│   │       └── sourcesanspro_regular.ttf
-│   ├── gui
-│   ├── locale
-│   │   ├── de
-│   │   │   └── de.csv
-│   │   ├── en
-│   │   │   └── en.csv
-│   │   ├── es
-│   │   │   └── es.csv
-│   │   └── fr
-│   │       └── fr.csv
-│   ├── models
-│   ├── music
-│   ├── sounds
-│   └── textures
-├── misc
-│   └── tools
-│       └── example_python_script.py
-├── resources
-│   ├── fonts
-│   │   └── sourcesanspro
-│   │       ├── sourcesanspro_bold.fnt
-│   │       └── sourcesanspro_regular.fnt
-│   ├── gui
-│   ├── locale
-│   │   ├── de
-│   │   ├── en
-│   │   ├── es
-│   │   └── fr
-│   ├── maps (2)
-│   │   └── introduction
-│   │       ├── introduction.gd
-│   │       ├── introduction.png
-│   │       └── introduction.scn
-│   ├── materials
-│   ├── models
-│   ├── music
-│   ├── sample_libraries
-│   ├── sounds
-│   └── textures
-├── scenes
-│   ├── main_menu.xscn
-│   └── player.xscn
-├── scripts
-│   ├── hud.gd
-│   ├── main.gd
-│   └── main_menu.gd
-├── CHANGELOG.md
-├── CONTRIBUTING.md (3)
-├── engine.cfg
-├── LICENSE.md
-└── README.md
-```
-
-- (1): `assets` contains the source files of your artwork, like .dae, .csv... It
-  should be a separate Git repository or a submodule, unless
-  your game is very small. It should not be required to play the project, but is
-  a must-have for developing.
-
-- (2): For consistency, it is probably best to name it `maps`, even for a racing
-  game or a platformer, where `tracks` or `levels` would have been more
-  suitable.
-
-- (3): `CONTRIBUTING.md`, as popularized by GitHub, contains instructions for
-  contributing to the project.
+Follow
+[this page](http://godotengine.org/projects/godot-engine/wiki/Version_Control_and_Project_Organization)
+as for directory structure.
 
 ## `.gitignore`
 
