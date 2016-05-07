@@ -21,6 +21,15 @@ ___
 - `PascalCase` for node names.
 - `PascalCase` for classes.
 
+## Functions
+
+- Function arguments should have a space after each comma, like this:
+
+```gdscript
+func my_function(a, b, c):
+    pass
+```
+
 ## Comments
 
 - Begin comments with an uppercase letter, unless you are referencing a function
