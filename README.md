@@ -56,8 +56,7 @@ print(str(5 * 40 + 2))
 
 ## File types and extensions
 
-- Use `.xscn` for text scenes, or `.tscn` when loading will be available.
-  (Currently, you can only save `.tscn` scenes, not load them.)
+- Use `.tscn` for text scenes, as `.xscn` is less efficient and will eventually go away.
 - In general, when developing using a version control system, you should use
   text-based files as much as possible. This is especially true with Git.
 
@@ -88,5 +87,5 @@ Contributions are welcome, feel free to discuss on the
 
 # License
 
-Copyright (c) 2015 Calinou and contributors  
+Copyright (c) 2015-2016 Calinou and contributors  
 CC0 1.0 Universal, see [LICENSE.md](LICENSE.md).
