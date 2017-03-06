@@ -1,6 +1,6 @@
 # Godot style guide
 
-This is an unofficial style guide for [Godot](http://godotengine.org), a free,
+This is an unofficial style guide for [Godot](https://godotengine.org), a free,
 libre and open source game engine.
 
 ## Conventions used in this document
@@ -14,12 +14,12 @@ ___
 
 ## Naming
 
-- `UPPER_SNAKE_CASE` for constants.
-- `snake_case` for variables and functions.
-- `snake_case` for input map names.
-- `snake_case` for all file names.
-- `PascalCase` for node names.
-- `PascalCase` for classes.
+- Use `UPPER_SNAKE_CASE` for constants.
+- Use `snake_case` for variables and functions.
+- Use `snake_case` for input map names.
+- Use `snake_case` for all file names.
+- Use `PascalCase` for node names.
+- Use `PascalCase` for classes.
 
 ## Functions
 
@@ -65,24 +65,23 @@ print(str(5 * 40 + 2))
 
 ## File types and extensions
 
-- Use `.tscn` for text scenes, as `.xscn` is less efficient and will eventually go away.
-- In general, when developing using a version control system, you should use
-  text-based files as much as possible. This is especially true with Git.
+- In most cases, you should use `.tscn` scenes and `.tres` resources as those
+  are more friendly towards version control systems.
 
 ## Directory structure
 
 Follow
-[this page](http://godotengine.org/projects/godot-engine/wiki/Version_Control_and_Project_Organization)
+[this page](http://docs.godotengine.org/en/stable/tutorials/engine/project_organization.html)
 as for directory structure.
 
 ## `.gitignore`
 
-You should use a `.gitignore` file that ignores certain patterns from being
-added to your Git repository. It should be placed at the root of the game
-folder. Here's an example that will suit most Godot projects:
+If using Git, you should use a `.gitignore` file that ignores certain patterns
+from being added to your Git repository. It should be placed at the root of the
+game folder. Here's an example that will suit most Godot projects:
 
 ```
-bin/
+.import/
 .fscache
 *~
 ```
@@ -96,5 +95,6 @@ Contributions are welcome, feel free to discuss on the
 
 # License
 
-Copyright (c) 2015-2016 Calinou and contributors  
+Copyright (c) 2015-2017 Hugo Locurcio and contributors
+
 CC0 1.0 Universal, see [LICENSE.md](LICENSE.md).
