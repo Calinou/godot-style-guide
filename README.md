@@ -1,5 +1,13 @@
 # Godot style guide
 
+___
+
+**This guide is deprecated since Godot 3.0's release. See the
+[official GDScript style guide](http://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_styleguide.html)
+instead.**
+
+___
+
 This is an unofficial style guide for [Godot](https://godotengine.org), a free,
 libre and open source game engine.
 
